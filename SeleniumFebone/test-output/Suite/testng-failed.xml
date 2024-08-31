@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" data-provider-thread-count="2" name="Failed suite [Suite]">
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="samplepackage.MultipleLogins">
+        <methods>
+          <include name="Logins" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- samplepackage.MultipleLogins -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
